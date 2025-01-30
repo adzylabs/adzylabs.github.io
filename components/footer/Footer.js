@@ -51,8 +51,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Chitrakoot <br>
-                                    Chennai
+                                  India
                                 </p>
                             </div>
                         </div>
