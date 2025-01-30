@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    hello@adzylabs.com
+                                    Techco@gmail.com
                                 </p>
                             </div>
                         </div>
@@ -201,10 +201,10 @@ const Footer = (props) => {
             <div className="footer_bottom">
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
                     <p className="copyright_text m-0">
-                        Copyright © 2025 Adzy Labs, All rights reserved.
+                        Copyright © 2024 Techco, All rights reserved.
                     </p>
                     <p className="copyright_text m-0">
-                        Developed by <Link onClick={ClickHandler} href="https://adzylabs.com">adzy Labs</Link>
+                        Developed by <Link onClick={ClickHandler} href="/">XpressBuddy</Link>
                     </p>
                 </div>
             </div>
