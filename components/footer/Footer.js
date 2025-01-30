@@ -29,7 +29,7 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    Techco@gmail.com
+                                   hello@adzylabs.com
                                 </p>
                             </div>
                         </div>
@@ -38,9 +38,9 @@ const Footer = (props) => {
                                 <Image src={icon2} alt="Calling Check SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title"> Call Us (USA)</h3>
+                                <h3 className="iconbox_title"> Call Us (IN)</h3>
                                 <p className="mb-0">
-                                    +(1) 1230 452 8597
+                                    +(91) 9444 008913 
                                 </p>
                             </div>
                         </div>
@@ -51,7 +51,8 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Waterloo, Park, Australia
+                                    Chitrakoot <br>
+                                    Chennai
                                 </p>
                             </div>
                         </div>
@@ -62,7 +63,7 @@ const Footer = (props) => {
                                 <div className="footer_widget pe-md-3">
                                     <h2 className="footer_info_title">Newsletter</h2>
                                     <p>
-                                        Sign up to Techco weekly newsletter to get the latest updates.
+                                        Sign up to Adzy Labs weekly newsletter to get the latest updates.
                                     </p>
                                     <form className="footer_newslatter" onSubmit={SubmitHandler}>
                                         <label htmlFor="footer_mail_input">
@@ -103,7 +104,7 @@ const Footer = (props) => {
                                         <li>
                                             <Link onClick={ClickHandler} href="/about">
                                                 <span className="icon_list_text">
-                                                    About Techco
+                                                    About Adzy Labs
                                                 </span>
                                             </Link>
                                         </li>
@@ -201,10 +202,10 @@ const Footer = (props) => {
             <div className="footer_bottom">
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
                     <p className="copyright_text m-0">
-                        Copyright © 2024 Techco, All rights reserved.
+                        Copyright © 2025 Adzy Labs, All rights reserved.
                     </p>
                     <p className="copyright_text m-0">
-                        Developed by <Link onClick={ClickHandler} href="/">XpressBuddy</Link>
+                        Developed by <Link onClick={ClickHandler} href="/">Adzy Labs</Link>
                     </p>
                 </div>
             </div>
