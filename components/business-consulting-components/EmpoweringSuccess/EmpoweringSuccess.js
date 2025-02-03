@@ -25,7 +25,7 @@ const EmpoweringSuccess = (props) => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="image_wrap position-relative">
-                  <Image className="rounded" src={eImg} alt="Techco - About"/>
+                  <Image className="rounded" src={eImg} alt="Adzy Labs - About"/>
                   <button  onClick={() => setOpen(true)} className="video_btn ripple_effect">
                     <span className="btn_icon">
                       <i className="fa-solid fa-play"></i>

@@ -208,7 +208,9 @@ const Footer = (props) => {
                     </p>
                 </div>
             </div>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/49208097.js"></script>
         </footer>
+
     )
 }
 

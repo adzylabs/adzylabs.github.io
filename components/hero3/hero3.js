@@ -61,12 +61,12 @@ const Hero3 = (props) => {
                                     <h3 className="funfact_title mb-0">Happy Customer</h3>
                                 </div>
                                 <div className="funfact_icon">
-                                    <Image src={icon1} alt="Techco - SVG Icon User" />
+                                    <Image src={icon1} alt="Adzy Labs - SVG Icon User" />
                                 </div>
                             </div>
                             <div className="funfact_block middle capsule_layout wow fadeInUp" data-wow-delay=".2s">
                                 <div className="funfact_icon">
-                                    <Image src={icon2} alt="Techco - SVG Icon Wallet" />
+                                    <Image src={icon2} alt="Adzy Labs - SVG Icon Wallet" />
                                 </div>
                                 <div className="funfact_content">
                                     <h3 className="funfact_title mb-0">Company Value</h3>

@@ -24,7 +24,7 @@ const About = (props) => {
           <div className="col-lg-7 order-lg-last">
             <div className="about_image_2">
               <div className="image_wrap">
-                <Image src={about1} alt="Techco - About" />
+                <Image src={about1} alt="Adzy Labs - About" />
               </div>
               <div className="about_funfact_info" style={{ backgroundImage: `url(${'/images/shapes/shape_bg_1.webp'})` }}>
                 <div className="customer_count">
@@ -84,10 +84,10 @@ const About = (props) => {
                   About Us
                 </div>
                 <h2 className="heading_text">
-                  Techco <mark>Mission & Goal</mark>
+                  Adzy Labs <mark>Mission & Goal</mark>
                 </h2>
                 <p className="heading_description mb-0">
-                  At Techco, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
+                  At Adzy Labs, our mission is to empower businesses through innovative software solutions that streamline operations, foster growth, and drive success. With a commitment to excellence and customer satisfaction we strive.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ const About = (props) => {
             {Project.slice(6, 9).map((project, prj) => (
               <div className="case_study_block" key={prj}>
                 <div className="case_study_image">
-                  <Image src={project.pImg} alt="Techco - Cases" />
+                  <Image src={project.pImg} alt="Adzy Labs - Cases" />
                 </div>
                 <div className="case_study_content">
                   <ul className="category_list unordered_list text-uppercase">
@@ -162,7 +162,7 @@ const About = (props) => {
         </div>
       </div>
       <div className="decoration_item shape_image_1">
-        <Image src={shape1} alt="Techco Shape" />
+        <Image src={shape1} alt="Adzy Labs Shape" />
       </div>
     </section>
   )

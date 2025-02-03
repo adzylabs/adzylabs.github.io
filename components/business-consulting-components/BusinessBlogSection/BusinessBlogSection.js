@@ -32,7 +32,7 @@ const BusinessBlogSection = (props) => {
                             <div className="blog_post_block_2">
                                 <div className="blog_post_image">
                                     <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>
-                                        <Image src={blog.screens} alt="Techco Blog Post" />
+                                        <Image src={blog.screens} alt="Adzy Labs Blog Post" />
                                     </Link>
                                 </div>
                                 <div className="blog_post_content">

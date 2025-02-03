@@ -60,7 +60,7 @@ const FeaturesSection = (props) => {
                                 <div className="col-md-6" key={fitem}>
                                     <div className="funfact_block">
                                         <div className="funfact_icon">
-                                            <Image src={funfact.icon} alt="Techco - SVG Icon Head" />
+                                            <Image src={funfact.icon} alt="Adzy Labs - SVG Icon Head" />
                                         </div>
                                         <div className="funfact_content">
                                             <div className="counter_value">
@@ -78,7 +78,7 @@ const FeaturesSection = (props) => {
                     <div className="col-lg-4">
                         <div className="our_world_employees">
                             <div className="image_wrap">
-                                <Image src={fimg} alt="Techco - Employees Guoup" />
+                                <Image src={fimg} alt="Adzy Labs - Employees Guoup" />
                             </div>
                             <div className="content_wrap">
                                 <h3 className="title_text mb-0">

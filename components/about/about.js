@@ -21,9 +21,9 @@ const About = (props) => {
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">
                         <div className="about_image_1">
-                            <Image src={about1} alt="Techco - About" />
-                            <Image src={about2} data-parallax='{"y" : 80, "smoothness": 6}' alt="Techco - About" />
-                            <Image src={about3} data-parallax='{"y" : -80, "smoothness": 6}' alt="Techco - About" />
+                            <Image src={about1} alt="Adzy Labs - About" />
+                            <Image src={about2} data-parallax='{"y" : 80, "smoothness": 6}' alt="Adzy Labs - About" />
+                            <Image src={about3} data-parallax='{"y" : -80, "smoothness": 6}' alt="Adzy Labs - About" />
                         </div>
                     </div>
                     <div className="col-lg-5">
@@ -31,13 +31,13 @@ const About = (props) => {
                             <div className="heading_block">
                                 <div className="heading_focus_text">
                                     We are 😃
-                                    <span className="badge bg-secondary text-white">Techco</span>
+                                    <span className="badge bg-secondary text-white">Adzy Labs</span>
                                 </div>
                                 <h2 className="heading_text">
                                     Our Commitment to Client Satisfaction
                                 </h2>
                                 <p className="heading_description mb-0">
-                                    At Techco, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
+                                    At Adzy Labs, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
                                 </p>
                             </div>
                             <ul className="icon_list unordered_list_block mb-5">

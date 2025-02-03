@@ -60,9 +60,9 @@ const BusinessFooter = (props) => {
                       <h3 className="footer_info_title">Start a Conversation</h3>
                       <ul className="icon_list unordered_list_block">
                         <li>
-                          <a href="mailto:work@techco.com">
+                          <a href="mailto:work@Adzy Labs.com">
                             <span className="icon_list_text">
-                              work@techco.com
+                              work@Adzy Labs.com
                             </span>
                           </a>
                         </li>
@@ -161,7 +161,7 @@ const BusinessFooter = (props) => {
         <div className="footer_bottom bg-primary text-white">
           <div className="container d-md-flex align-items-md-center justify-content-md-between">
             <p className="copyright_text m-0">
-              Copyright © 2024 Techco, All rights reserved.
+              Copyright © 2024 Adzy Labs, All rights reserved.
             </p>
             <p className="copyright_text m-0">
               Developed by <Link onClick={ClickHandler} href="/" target="_blank">XpressBuddy</Link>
