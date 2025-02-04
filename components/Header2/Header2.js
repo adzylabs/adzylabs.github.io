@@ -9,6 +9,8 @@ import icon6 from '/public/images/icons/icon_users.svg'
 import icon7 from '/public/images/icons/icon_pen.svg'
 import icon8 from '/public/images/clients/client_logo_9.webp'
 import icon9 from '/public/images/clients/client_logo_10.webp'
+import rating1 from '/public/images/clients/gmb.webp'
+import rating2 from '/public/images/clients/clutch.webp' 
 import icon10 from '/public/images/avatar/avatar_7.webp'
 import icon11 from '/public/images/icons/icon_quote.svg'
 import logo from '/public/images/site_logo/site_logo_2.svg'
@@ -201,7 +203,7 @@ const Header2 = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <Image src={icon8} alt="Client Logo" />
+                                                                            <Image src={rating1} alt="Client Logo" />
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">
@@ -218,7 +220,7 @@ const Header2 = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <Image src={icon9} alt="Client Logo" />
+                                                                            <Image src={rating2} alt="Client Logo" />
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">

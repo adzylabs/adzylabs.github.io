@@ -9,6 +9,9 @@ import pimg4 from '/public/images/clients/client_logo_4.webp'
 import pimg5 from '/public/images/clients/client_logo_5.webp'
 import pimg6 from '/public/images/clients/client_logo_6.webp'
 import pimg7 from '/public/images/clients/client_logo_7.webp'
+import pimg8 from '/public/images/clients/client_logo_8.webp'
+import pimg9 from '/public/images/clients/client_logo_9.webp'
+import pimg10 from '/public/images/clients/client_logo_10.webp'
 import Image from "next/image";
 
 const partners = [
@@ -34,7 +37,13 @@ const partners = [
         pImg: pimg7,
     },
     {
-        pImg: pimg2,
+        pImg: pimg8,
+    },
+    {
+        pImg: pimg9,
+    },
+    {
+        pImg: pimg10,
     },
 ]
 

@@ -348,7 +348,7 @@ const Footer = (props) => {
       <div className="footer_bottom" style={{ backgroundImage: `url(${'/images/shapes/shape_space_6.svg'})` }}>
         <div className="container d-md-flex align-items-md-center justify-content-md-between">
           <p className="copyright_text m-0">
-            Copyright © 2024 Adzy Labs, All rights reserved.
+            Copyright © 2025 Adzy Labs , All rights reserved.
           </p>
           <ul className="icon_list unordered_list">
             <li>

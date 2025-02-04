@@ -9,6 +9,8 @@ import icon6 from '/public/images/icons/icon_users.svg'
 import icon7 from '/public/images/icons/icon_pen.svg'
 import icon8 from '/public/images/clients/client_logo_9.webp'
 import icon9 from '/public/images/clients/client_logo_10.webp'
+import rating1 from '/public/images/clients/gmb.webp'
+import rating2 from '/public/images/clients/clutch.webp'            
 import icon10 from '/public/images/avatar/avatar_7.webp'
 import icon11 from '/public/images/icons/icon_quote.svg'
 import logo from '/public/images/site_logo/site_logo_3.svg'
@@ -49,7 +51,7 @@ const Header = (props) => {
         <header className="site_header site_header_1">
             <div className="header_top text-center">
                 <div className="container">
-                    <p className="m-0">💡 Have a Project in Mind? Let's 😊 Make it big Success🚀✨<Link onClick={ClickHandler} href="/pricing"><u>Book Meeting</u> <i className="fa-solid fa-angle-right"></i></Link></p>
+                    <p className="m-0">💡 Have a Project in Mind? Let's 😊 Make it big Success🚀✨<Link onClick={ClickHandler} href="/contact"><u>Book Meeting</u> <i className="fa-solid fa-angle-right"></i></Link></p>
                 </div>
             </div>
             <div className={`header_bottom stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
@@ -58,7 +60,7 @@ const Header = (props) => {
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" href="/">
-                                    <Image src={logo} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
+                                    <Image src={logo} alt="Site Logo – Adzy Labs – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                 </Link>
                                 <div className="badge bg-danger-subtle text-danger">We’re Hiring</div>
                             </div>
@@ -96,7 +98,7 @@ const Header = (props) => {
                                                                                 <small className="iconbox_title">About Us</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Learn more about Techco
+                                                                                Learn more about Adzy Labs
                                                                             </span>
                                                                         </Link>
                                                                     </div>
@@ -205,7 +207,7 @@ const Header = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <Image src={icon8} alt="Client Logo" />
+                                                                            <Image src={rating1} alt="Client Logo" />
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">
@@ -222,7 +224,7 @@ const Header = (props) => {
                                                                 <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
-                                                                            <Image src={icon9} alt="Client Logo" />
+                                                                            <Image src={rating2} alt="Client Logo" />
                                                                         </div>
                                                                         <div className="review_info_content">
                                                                             <ul className="rating_block unordered_list">
@@ -246,14 +248,14 @@ const Header = (props) => {
                                                                     </div>
                                                                     <div className="author_box_content">
                                                                         <h3 className="author_name text-white">Maverick Phoenix</h3>
-                                                                        <span className="author_designation text-white">CEO At Techco</span>
+                                                                        <span className="author_designation text-white">CEO At Adzy Labs</span>
                                                                     </div>
                                                                     <div className="quote_icon">
                                                                         <Image src={icon11} alt="Quote Icon" />
                                                                     </div>
                                                                 </div>
                                                                 <p className="mb-0 text-white">
-                                                                    As a CEO at Techco  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Techco, I made that possible  for the clients.
+                                                                    As a CEO at Adzy Labs  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Adzy Labs, I made that possible  for the clients.
                                                                 </p>
                                                             </div>
                                                         </div>
