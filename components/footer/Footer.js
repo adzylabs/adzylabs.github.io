@@ -18,6 +18,7 @@ const SubmitHandler = (e) => {
 
 const Footer = (props) => {
     return (
+        
         <footer className="site_footer footer_layout_1">
             <div className="content_box" style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_3.svg'})` }}>
                 <div className="container">
@@ -208,7 +209,10 @@ const Footer = (props) => {
                     </p>
                 </div>
             </div>
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/49208097.js"></script>
+               {/* HubSpot Tracking Code */}
+            {/* Start of HubSpot Embed Code */}
+            <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/49208097.js"></script>
+            {/* End of HubSpot Embed Code */}
         </footer>
 
     )
