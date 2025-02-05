@@ -73,11 +73,11 @@ const Header = (props) => {
                                             <Link onClick={ClickHandler} className="nav-link" href="/" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Home
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="home_submenu">
+                                           {/*  <ul className="dropdown-menu" aria-labelledby="home_submenu">
                                                 <li><Link onClick={ClickHandler} href="/">IT Solution</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home_software_company">Software Company</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home_business_consulting">Business Consulting</Link></li>
-                                            </ul>
+                                            </ul>*/}
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" href="/" id="company_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -95,11 +95,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon1} alt="Wifi SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">About Us</small>
+                                                                                <small className="iconbox_title">Digital Strategy</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Learn more about Adzy Labs
-                                                                            </span>
+                                                                            Elevate Your Brand                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -108,11 +107,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon2} alt="Dollar SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Our Pricing</small>
+                                                                                <small className="iconbox_title">Content Marketing</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Streamlined Pricing
-                                                                            </span>
+                                                                            Engage Your Audience                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -121,11 +119,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon3} alt="Chart SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Portfolio</small>
+                                                                                <small className="iconbox_title">Social Management</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Explore our all overview
-                                                                            </span>
+                                                                            Connect and Grow                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -134,11 +131,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon4} alt="Event Tag SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Portfolio Details</small>
+                                                                                <small className="iconbox_title">Cloud Services</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Explore our work overview
-                                                                            </span>
+Scale with confidence                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -147,11 +143,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon5} alt="User Check SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Team</small>
+                                                                                <small className="iconbox_title">Organic Growth</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                We are friendly Join our team
-                                                                            </span>
+                                                                            Build Lasting Relationships                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -160,11 +155,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon6} alt="Users SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Team Details</small>
+                                                                                <small className="iconbox_title">Technology Services</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                We are friendly Join our team
-                                                                            </span>
+                                                                            Empower Your Business                                                                            </span>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -173,11 +167,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon7} alt="Pen SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Services</small>
+                                                                                <small className="iconbox_title">Digital Marketing</small>
                                                                             </span>
                                                                             <small className="description mb-0">
-                                                                                Happy to help you!
-                                                                            </small>
+                                                                            Maximize Your ROI                                                                            </small>
                                                                         </Link>
                                                                     </div>
                                                                     <div className="col-lg-3 col-md-6">
@@ -186,11 +179,10 @@ const Header = (props) => {
                                                                                 <small className="iconbox_icon">
                                                                                     <Image src={icon7} alt="Pen SVG Icon" />
                                                                                 </small>
-                                                                                <small className="iconbox_title">Service Details</small>
+                                                                                <small className="iconbox_title">Communication</small>
                                                                             </span>
                                                                             <small className="description mb-0">
-                                                                                Happy to help you!
-                                                                            </small>
+                                                                            Connect with Audience                                                                             </small>
                                                                         </Link>
                                                                     </div>
                                                                 </div>
