@@ -48,7 +48,7 @@ const MalkainIsForYouIf = () => {
           className={`pt-[3rem] pb-[2rem] text-center ${NeueHaasDisplay_bold.className} text-4xl`}
         >
           {" "}
-          Malkain is <br /> for you IF
+          Adzy labs is <br /> for you IF
         </h2>
 
         {/* the bottom process and the mapping function */}

@@ -168,7 +168,7 @@ const Past_work_template = ({
   const menu_arr = [
     // THIS IS BECAUE OF MALKAIN UPDATE SO THIS IS FOR IT TO DISPLAY SINGLY
     {
-      title: "MalkainSpecial",
+      title: "AdzySpecial",
       body: [
         {
           demo: true,

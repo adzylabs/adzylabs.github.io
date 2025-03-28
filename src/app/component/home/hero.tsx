@@ -158,7 +158,7 @@ const Home_hero = () => {
         style={{ backgroundColor: color }}
       >
         <p className="text-[4.3vw] sm:text-[6.8vw] novabold text-center text-white font-[500] leading-[120%] sm:absolute sm:top-[38vw]    ">
-          The best way to predict the <br /> future is to reinvent it
+          One Stop Solution to <br /> Scale your digital presense and ROI
         </p>
 
         <motion.div
@@ -242,17 +242,17 @@ const Home_hero = () => {
               animate={{ y: "-8vw" }}
             >
               <p
-                className="  text-[10vw] sm:text-[12vw] mt-[7vw] flex justify-center items-center  h-fit    font-[helvetica] font-[700] "
+                className="  text-[10vw] sm:text-[vw] mt-[20vw] flex justify-center items-center  h-fit    font-[helvetica] font-[700] "
                 style={{
                   background:
-                    "linear-gradient(180deg,rgb(255, 183, 0) 0%, rgba(0, 0, 0, 0.97) 100%)",
+                    "linear-gradient(180deg, #17BAD0 0%, rgba(0, 0, 0, 0.97) 100%)",
                   backgroundClip: "text",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   transition: "0.5s ease",
                 }}
               >
-                Adzy Labs
+               <span >@</span> Adzy Labs
               </p>
             </motion.div>
 

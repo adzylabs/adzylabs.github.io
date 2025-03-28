@@ -94,7 +94,7 @@ const Home_about = () => {
               })}
             </div>
           </div> */}
-          <Image src={agile2} alt="malkine about image" className="w-full " />
+          <Image src={agile2} alt="Adzy Labs about image" className="w-full " />
         </div>
       </div>
     </>

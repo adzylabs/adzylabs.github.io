@@ -77,12 +77,12 @@ const Footer = ({ landing, btn_bg_color }: any) => {
                 <div className="w-[0.07vw] h-[5.13vw] sm:h-[15vw] bg-[#838383] sm:hidden "></div>
                 <div className="flex flex-col gap-[0.3vw] sm:text-[2.5vw] sm:text-end ">
                   <p className="inter text-[1.2vw] sm:text-[3.25vw] font-[700] capitalize text-white">
-                    USA
+                    UAE
                   </p>
                   <p className="text-[white]">
                     <span className="text-[#838383]"></span> 317 George St, 3rd
                     Floor <br />
-                    New Brunswick , NJ , 08901
+                    Dubai , UAE , 08901
                   </p>
 
                   <p className="text-[white]">
@@ -116,16 +116,16 @@ const Footer = ({ landing, btn_bg_color }: any) => {
                 <div className="w-[0.07vw] h-[5.13vw] sm:h-[15vw] bg-[#838383] sm:hidden"></div>
                 <div className="flex flex-col gap-[0.3vw] sm:text-[2.5vw] sm:text-end ">
                   <p className="inter text-[1.2vw] sm:text-[3.25vw] font-[700] capitalize text-white">
-                    canada
+                    INDIA
                   </p>
                   <p className="text-[white]">
-                    <span className="text-[#838383]"></span> 201 Portage Ave
-                    18th Floor, <br /> Winnipeg, MB R3B 3K6, Canada
+                    <span className="text-[#838383]"></span> 6th Cross Street
+                   George Town, <br /> TN, 600001, India
                   </p>
 
                   <p className="text-[white]">
                     <span className="text-[#838383]">Email</span>{" "}
-                    support@adzylabs.com
+                    support@adzy.in
                   </p>
                 </div>
               </div>

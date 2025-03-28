@@ -8,7 +8,7 @@ import Home_Header from "./component/navigation/home_header";
 import Footer from "./component/fotter/footer";
 import type { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Malkain",
+  title: "Adzy Labs",
   description: "Adzy Labs and Deployment",
 };
 

@@ -278,7 +278,7 @@
 //       title:
 //         "Malkain Healthcare -  Where Patient Care Meets Digital Excellence",
 //       description:
-//         "Malkain is a web design firm obsessed with crafting beautiful and functional websites for healthcare providers like you. We translate your vision into stunning and functional online websites that showcase your services with the same care and commitment you put in with every patient.",
+//         "Adzy labs is a web design firm obsessed with crafting beautiful and functional websites for healthcare providers like you. We translate your vision into stunning and functional online websites that showcase your services with the same care and commitment you put in with every patient.",
 //       hero_text: [
 //         { word: "Focus " },
 //         { word: "on " },
@@ -480,7 +480,7 @@
 //     },
 //     {
 //       category: "architects",
-//       title: "Malkain - Crafting Stunning Online Portfolios for Architects",
+//       title: "Adzy Labs - Crafting Stunning Online Portfolios for Architects",
 //       description:
 //         "Malkain understands that great architects create inspirational buildings, not websites. That is why we are committed to developing online portfolios that reflect the effort and dedication you put into each job. Our skilled web design agency specialises in creating stunning, practical websites that reflect your architectural ideas. Let us take care of your digital presence so you can focus on what you do best: creating remarkable venues.",
 //       hero_text: [

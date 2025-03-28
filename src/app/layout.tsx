@@ -15,10 +15,10 @@ import { usePathname } from "next/navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Malkain",
+  title: "Adzy Labs - One Stop Solution",
   description: "Adzy Labs and Deployment",
   other: {
-    "msvalidate.01": "7F19A1D05342FB69BD2941A0E771D847",
+    "msvalidate.01": "",
   },
 };
 

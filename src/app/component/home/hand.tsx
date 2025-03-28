@@ -482,23 +482,23 @@ const Hands = (props: any) => {
           <Image
             priority
             src={aeroplane_malkaine}
-            alt="aeroplan malkaine"
+            alt="aeroplan Adzy Labs"
             className="w-full absolute sm:hidden top-0 left-0 h-full "
           />
           <Image
             priority
             src={mob_aeroplane_malkaine}
-            alt="aeroplan malkaine"
+            alt="aeroplan Adzy Labs"
             className="w-full absolute sm:block  hidden top-0 left-0 h-full "
           />
 
           <div className=" items-center z-[10] text-white w-full flex justify-between p_r  sm:flex-col sm:items-start sm:gap-[26.25vw] ">
             <div className="flex flex-col gap-[0.33vw] w-fit">
               <p className="text-[3vw] inter font-medium sm:text-[7.5vw]">
-                2023
+                2019
               </p>
               <p className="uppercase nova text-[2vw] sm:text-[3vw]">
-                MALKAIN - NJ
+                ADZY LABS
               </p>
             </div>
             {/* Services we offer */}

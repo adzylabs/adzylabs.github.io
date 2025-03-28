@@ -8,8 +8,6 @@ export async function POST(req: Request, res: any) {
   const message = {
     from: data.email,
     to: [
-      "malkaindesigns@gmail.com",
-      "emmanuel@adzylabs.com",
       "support@adzylabs.com",
     ],
     subject: "New Client submission from Showcase Page " + data.name,
@@ -40,20 +38,3 @@ export async function POST(req: Request, res: any) {
       );
     });
 }
-
-// // const body = JSON.parse(req.body);
-// // const res = await request.json();
-// const data = await req.json();
-
-// resend.emails.send({
-//   from: `onboarding@resend.dev`,
-//   to: [
-//     "support@adzylabs.com",
-//     "emmanuel@adzylabs.com",
-//     "malkaindesigns@gmail.com",
-//   ],
-//   reply_to: data.email,
-//   subject: "New Client submission from " + data.name,
-//   html: `<h1>Client information from Malkain</h1> <p> Client Name :  <strong > ${data.name} </strong> </p> <p> Client Email :  <strong > ${data.email} </strong> </p> <p> Client Phone :  <strong > ${data.phone} </strong> </p>  <p> Client Business Name :  <strong > ${data.business} </strong> </p>  <p> Client Project Description :  <strong > ${data.project_info} </strong> </p>  <p> Client Is Interested In :  <strong > ${data.interest} </strong> </p> <p> Client Budget :  <strong > $${data.budget}.00 </strong> </p> <p> How did you hear about us :  <strong > ${data.hear_us} </strong> </p>  <p style="color:red; ">This information was submitted from  our officail site @copyright 2023</p>  `,
-//   // react: <Logo />,
-// });

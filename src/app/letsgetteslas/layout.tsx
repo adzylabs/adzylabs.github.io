@@ -12,8 +12,8 @@ import { usePathname } from "next/navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Malkain",
-  description: "Malkain services",
+  title: "Adzy Labs",
+  description: "Adzy Labs services",
   other: {
     "msvalidate.01": "7F19A1D05342FB69BD2941A0E771D847",
   },

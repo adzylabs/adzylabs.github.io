@@ -38,12 +38,12 @@ const Home_about_us = () => {
             <div className="text-[1.87vw] inter sm:text-[4vw] sm:flex sm:flex-col ">
               <p className=" hidden sm:block sm:pl-0 sm:leading-[7vw]">
                 {" "}
-                <span className="font-[900]">Malkain </span> is a future-focused
+                <span className="font-[900]">Adzy Labs </span> is a future-focused
                 design and development firm,
               </p>
               <p className="pl-[13.3vw] sm:hidden sm:pl-0 ">
                 {" "}
-                <span className="font-[900]">Malkain </span>is a future-focused
+                <span className="font-[900]">Adzy Labs </span>is a future-focused
                 design and development firm,
               </p>
 
