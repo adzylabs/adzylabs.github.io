@@ -207,6 +207,6 @@ const Footer = ({ landing, btn_bg_color }: any) => {
     </>
   );
 };
-
+<LiveChat />
 export default Footer;
 
