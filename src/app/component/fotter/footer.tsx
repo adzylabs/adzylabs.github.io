@@ -12,6 +12,7 @@ import Link from "next/link";
 import Logo from "../logo";
 import footer_bg from "../../../../public/landingpage_template/footer_bg.webp";
 import { scrollTo_calendy } from "@/app/utils/scroll_to_calendy";
+import LiveChat from '../livechat'
 
 const Footer = ({ landing, btn_bg_color }: any) => {
   return (
@@ -208,3 +209,4 @@ const Footer = ({ landing, btn_bg_color }: any) => {
 };
 
 export default Footer;
+

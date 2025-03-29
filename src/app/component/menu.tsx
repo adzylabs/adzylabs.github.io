@@ -10,9 +10,6 @@ import star from "../../../public/menu/star.webp";
 import { useState } from "react";
 import Menu_Logo from "./menu_logo";
 import Logo from "./logo";
-import LiveChat from './livechat';
-
-
 
 const Menu = (props: any) => {
   const {
