@@ -10,6 +10,9 @@ import star from "../../../public/menu/star.webp";
 import { useState } from "react";
 import Menu_Logo from "./menu_logo";
 import Logo from "./logo";
+import LiveChat from './livechat';
+
+
 
 const Menu = (props: any) => {
   const {
@@ -63,10 +66,12 @@ const Menu = (props: any) => {
 
   return (
     <>
+
       <div
         className="w-auto  fixed z-[109] top-0 left-0   flex "
         style={{ height: height }}
       >
+
         <motion.div
           animate={{ y: left, backgroundColor: "#D01717", opacity: opacity }}
           initial={{ y: "100%" }}
