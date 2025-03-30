@@ -206,5 +206,5 @@ const Footer = ({ landing, btn_bg_color }: any) => {
     </>
   );
 };
-export default Footer;
 
+export default Footer;

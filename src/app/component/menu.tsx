@@ -63,12 +63,10 @@ const Menu = (props: any) => {
 
   return (
     <>
-
       <div
         className="w-auto  fixed z-[109] top-0 left-0   flex "
         style={{ height: height }}
       >
-
         <motion.div
           animate={{ y: left, backgroundColor: "#D01717", opacity: opacity }}
           initial={{ y: "100%" }}
